@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 169b2cad18aa20946ac3868855f74879
+guid: ca84e3d921c8c8f44bb2ff1aa190ec2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5660276636136405323
-    second: player-swiming_0
+      213: 7815371044791450175
+    second: player-idle_0
   - first:
-      213: -7414351136793749259
-    second: player-swiming_1
+      213: 1012134607969099132
+    second: player-idle_1
   - first:
-      213: 5623088819303725804
-    second: player-swiming_2
+      213: -6563698218304314273
+    second: player-idle_2
   - first:
-      213: -7565827328318824235
-    second: player-swiming_3
+      213: 3839310155185486058
+    second: player-idle_3
   - first:
-      213: -1113407705033649097
-    second: player-swiming_4
+      213: 552071816459776616
+    second: player-idle_4
   - first:
-      213: 8218683742505747903
-    second: player-swiming_5
-  - first:
-      213: 5613937167676922426
-    second: player-swiming_6
+      213: -3283506609186517641
+    second: player-idle_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,155 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player-swiming_0
+      name: player-idle_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 26
-        width: 49
-        height: 26
+        x: 31
+        y: 16
+        width: 24
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b497a537c975d8e40800000000000000
-      internalID: 5660276636136405323
+      spriteID: f3afaa0ce86c57c60800000000000000
+      internalID: 7815371044791450175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-swiming_1
+      name: player-idle_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 30
-        width: 50
-        height: 22
+        x: 109
+        y: 15
+        width: 29
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f8156b8ceeea1990800000000000000
-      internalID: -7414351136793749259
+      spriteID: c7d90ec3013db0e00800000000000000
+      internalID: 1012134607969099132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-swiming_2
+      name: player-idle_2
       rect:
         serializedVersion: 2
-        x: 173
-        y: 32
-        width: 51
-        height: 20
+        x: 187
+        y: 14
+        width: 33
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ceab11f1d79390e40800000000000000
-      internalID: 5623088819303725804
+      spriteID: f546b151f3f09e4a0800000000000000
+      internalID: -6563698218304314273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-swiming_3
+      name: player-idle_3
       rect:
         serializedVersion: 2
-        x: 254
-        y: 30
-        width: 50
-        height: 22
+        x: 264
+        y: 11
+        width: 39
+        height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d02d9f5128c00790800000000000000
-      internalID: -7565827328318824235
+      spriteID: ae8716e9e38f74530800000000000000
+      internalID: 3839310155185486058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-swiming_4
+      name: player-idle_4
       rect:
         serializedVersion: 2
-        x: 334
-        y: 25
-        width: 50
-        height: 27
+        x: 347
+        y: 14
+        width: 33
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 734594367916c80f0800000000000000
-      internalID: -1113407705033649097
+      spriteID: 862f69e546a59a700800000000000000
+      internalID: 552071816459776616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-swiming_5
+      name: player-idle_5
       rect:
         serializedVersion: 2
-        x: 414
-        y: 30
-        width: 50
-        height: 22
+        x: 429
+        y: 15
+        width: 29
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb54551c151ae0270800000000000000
-      internalID: 8218683742505747903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player-swiming_6
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 32
-        width: 51
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3adebe2c16b8ed40800000000000000
-      internalID: 5613937167676922426
+      spriteID: 77d4acdb224ae62d0800000000000000
+      internalID: -3283506609186517641
       vertices: []
       indices: 
       edges: []
@@ -288,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 739cb34e6f7942e4388bc89ac3d4125f
     internalID: 0
     vertices: []
     indices: 
@@ -296,15 +271,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player-swiming_0: 5660276636136405323
-      player-swiming_1: -7414351136793749259
-      player-swiming_2: 5623088819303725804
-      player-swiming_3: -7565827328318824235
-      player-swiming_4: -1113407705033649097
-      player-swiming_5: 8218683742505747903
-      player-swiming_6: 5613937167676922426
+      player-idle_0: 7815371044791450175
+      player-idle_1: 1012134607969099132
+      player-idle_2: -6563698218304314273
+      player-idle_3: 3839310155185486058
+      player-idle_4: 552071816459776616
+      player-idle_5: -3283506609186517641
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

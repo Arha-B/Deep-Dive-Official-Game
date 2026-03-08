@@ -1,28 +1,22 @@
 fileFormatVersion: 2
-guid: 25b9325c9cbd1a84aa1ccb86caac2edf
+guid: f14d878fd7dfce548bd9371295d85e42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5107278841084830357
-    second: player-rush_0
+      213: 3595054216150968268
+    second: player-hurt_0
   - first:
-      213: 6828427874267096489
-    second: player-rush_1
+      213: 6120965848755966028
+    second: player-hurt_1
   - first:
-      213: 7814758610178235903
-    second: player-rush_2
+      213: 6707852576582436473
+    second: player-hurt_2
   - first:
-      213: 7229415364941006618
-    second: player-rush_3
+      213: 9097932757514206601
+    second: player-hurt_3
   - first:
-      213: -1443546287803315496
-    second: player-rush_4
-  - first:
-      213: -3361098896135164038
-    second: player-rush_5
-  - first:
-      213: 4154764653127215328
-    second: player-rush_6
+      213: 4718806534919961023
+    second: player-hurt_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,155 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player-rush_0
+      name: player-hurt_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 32
-        width: 51
-        height: 20
+        x: 29
+        y: 15
+        width: 29
+        height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6d154c14fc4f19b0800000000000000
-      internalID: -5107278841084830357
+      spriteID: cc7e2fd13c234e130800000000000000
+      internalID: 3595054216150968268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-rush_1
+      name: player-hurt_1
       rect:
         serializedVersion: 2
-        x: 105
-        y: 27
-        width: 39
-        height: 22
+        x: 111
+        y: 25
+        width: 30
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a5e01c19f273ce50800000000000000
-      internalID: 6828427874267096489
+      spriteID: c409569520a02f450800000000000000
+      internalID: 6120965848755966028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-rush_2
+      name: player-hurt_2
       rect:
         serializedVersion: 2
-        x: 194
-        y: 28
-        width: 27
-        height: 21
+        x: 186
+        y: 33
+        width: 35
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffd59153d89937c60800000000000000
-      internalID: 7814758610178235903
+      spriteID: 97682e0f064171d50800000000000000
+      internalID: 6707852576582436473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-rush_3
+      name: player-hurt_3
       rect:
         serializedVersion: 2
-        x: 270
-        y: 23
-        width: 39
-        height: 26
+        x: 266
+        y: 24
+        width: 23
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a174f09a8fa045460800000000000000
-      internalID: 7229415364941006618
+      spriteID: 98d360ad3a9524e70800000000000000
+      internalID: 9097932757514206601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-rush_4
+      name: player-hurt_4
       rect:
         serializedVersion: 2
-        x: 340
-        y: 28
-        width: 61
-        height: 27
+        x: 344
+        y: 24
+        width: 38
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8da46aaac4e77fbe0800000000000000
-      internalID: -1443546287803315496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player-rush_5
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 26
-        width: 45
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7fe7e0ac5afa51d0800000000000000
-      internalID: -3361098896135164038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player-rush_6
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 27
-        width: 51
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e82ffa6070b8a930800000000000000
-      internalID: 4154764653127215328
+      spriteID: fb932bdca819c7140800000000000000
+      internalID: 4718806534919961023
       vertices: []
       indices: 
       edges: []
@@ -288,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 955c577361016134daa8d08d31a524b7
     internalID: 0
     vertices: []
     indices: 
@@ -296,15 +246,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player-rush_0: -5107278841084830357
-      player-rush_1: 6828427874267096489
-      player-rush_2: 7814758610178235903
-      player-rush_3: 7229415364941006618
-      player-rush_4: -1443546287803315496
-      player-rush_5: -3361098896135164038
-      player-rush_6: 4154764653127215328
+      player-hurt_0: 3595054216150968268
+      player-hurt_1: 6120965848755966028
+      player-hurt_2: 6707852576582436473
+      player-hurt_3: 9097932757514206601
+      player-hurt_4: 4718806534919961023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
