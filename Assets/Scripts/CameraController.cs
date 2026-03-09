@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
- [Header("Target")]
+    [Header("Target")]
     public Transform player; // Drag your Player here
 
     [Header("Settings")]
