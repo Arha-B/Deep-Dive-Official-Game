@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 852179670}
   - component: {fileID: 852179669}
   - component: {fileID: 852179668}
+  - component: {fileID: 852179672}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -529,6 +530,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!114 &852179672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852179666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50eaf98158fc705449c2a13bdbe3977a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!1 &853439846
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +551,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853439848}
-  - component: {fileID: 853439847}
+  - component: {fileID: 853439849}
   m_Layer: 0
   m_Name: Fih
   m_TagString: Untagged
@@ -546,19 +559,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &853439847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853439846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93055bcbfe477bb49a9daf4cf3b5ee1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fih
-  selectedFish: 0
 --- !u!4 &853439848
 Transform:
   m_ObjectHideFlags: 0
@@ -574,6 +574,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &853439849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853439846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93055bcbfe477bb49a9daf4cf3b5ee1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fih
+  selectedFish: 0
+  normalSpeed: 2
+  aggroSpeed: 4.5
+  collisionDamage: 1
+  moveDistance: 3
 --- !u!1 &1151066766
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +621,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fih
   selectedFish: 2
+  normalSpeed: 2
+  aggroSpeed: 4.5
+  collisionDamage: 1
+  moveDistance: 3
 --- !u!4 &1151066768
 Transform:
   m_ObjectHideFlags: 0
@@ -648,6 +669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c01e31a33780d48b48bcd6b567d7d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  hasTreasure: 0
+  isGameOver: 0
+  currentDepth: 39.3
 --- !u!4 &1398062325
 Transform:
   m_ObjectHideFlags: 0
@@ -693,6 +717,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fih
   selectedFish: 1
+  normalSpeed: 2
+  aggroSpeed: 4.5
+  collisionDamage: 1
+  moveDistance: 3
 --- !u!4 &1767412707
 Transform:
   m_ObjectHideFlags: 0
