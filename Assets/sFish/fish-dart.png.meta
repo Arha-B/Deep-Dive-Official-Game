@@ -125,10 +125,10 @@ TextureImporter:
       name: fish-dart_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 34
-        height: 13
+        x: 0
+        y: 0
+        width: 39
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: fish-dart_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 3
-        width: 31
-        height: 13
+        x: 39
+        y: 0
+        width: 39
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: fish-dart_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 3
-        width: 34
-        height: 13
+        x: 78
+        y: 0
+        width: 39
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: fish-dart_3
       rect:
         serializedVersion: 2
-        x: 123
-        y: 3
-        width: 29
-        height: 13
+        x: 117
+        y: 0
+        width: 39
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
