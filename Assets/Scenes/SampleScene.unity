@@ -547,6 +547,11 @@ MonoBehaviour:
   currentHealth: 0
   mineDamage: 2
   bounceForce: 5
+  moveSpeed: 5
+  maxHealth: 5
+  currentHealth: 0
+  mineDamage: 2
+  bounceForce: 5
 --- !u!1 &853439846
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +600,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &853439849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853439846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93055bcbfe477bb49a9daf4cf3b5ee1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fih
+  speed: -0.74
+  aggroSpeed: 3.35
+  collisionDamage: -20
+  moveDistance: 3
 --- !u!1 &1151066766
 GameObject:
   m_ObjectHideFlags: 0
