@@ -46,6 +46,7 @@ public class FihController : MonoBehaviour
         aggroSpeed = 6f;
         collisionDamage = 1;
     }
+    
         startPos = transform.position;
         // Find player to chase later
         GameObject player = GameObject.FindGameObjectWithTag("Player");
