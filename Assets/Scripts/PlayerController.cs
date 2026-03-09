@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
 
     [Header("Health Settings")]
-    public float maxHealth = 5f;
-    public float currentHealth;
+    public int maxHealth = 5;
+    public int currentHealth;
     // Reference to your UI script from earlier (optional)
     // public HeartManager heartManager; 
 
     [Header("Damage Settings")]
-    public float mineDamage = 2.5f; // Mines hurt a lot!
+    public int mineDamage = 2; // Mines hurt a lot!
     public float bounceForce = 5f;  // Knockback when hit
 
     void Start()
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void TakeDamage(float damageAmount)
+    void TakeDamage(int damageAmount)
     {
         currentHealth -= damageAmount;
         

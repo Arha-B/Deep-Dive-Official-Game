@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Fih : MonoBehaviour
+public class FihController : MonoBehaviour
 {
 // This defines what the options ARE
     private enum FihType 
@@ -12,12 +12,12 @@ public class Fih : MonoBehaviour
 
     // This creates the actual dropdown variable in the Inspector
     [Header("Fih Type")]
-    [SerializeField] private FihType selectedFih;
+    [SerializeField] private readonly FihType selectedFih;
     [Header("Fih Stats")]
 
-    [SerializeField] private readonly float speed;
-    [SerializeField] private readonly float aggroSpeed;
-    [SerializeField] private readonly int collisionDamage;
+    [SerializeField] private float speed = 2f;
+    [SerializeField] private float aggroSpeed = 4.5f;
+    [SerializeField] public int collisionDamage = 1;
 
     [Header("Patrol Settings")]
     public float moveDistance = 3f; // How far it swims left/right
@@ -34,13 +34,13 @@ public class Fih : MonoBehaviour
         aggroSpeed = 4.5f;
         collisionDamage = 1;
     }
-    else if (selectedFish == FihType.BigFih)
+    else if (selectedFih == FihType.BigFih)
     {
         speed = 1.5f;
         aggroSpeed = 3.5f;
         collisionDamage = 2;
     }
-    else if (selectedFish == FihType.DartFih)
+    else if (selectedFih == FihType.DartFih)
     {
         speed = 3f;
         aggroSpeed = 6f;
@@ -58,7 +58,7 @@ public class Fih : MonoBehaviour
 
         // Check the Global State
         bool isAngry = GameManager.Instance.hasTreasure;
-        float currentSpeed = isAngry ? aggroSpeed : normalSpeed;
+        float currentSpeed = isAngry ? aggroSpeed : speed;
 
         if (isAngry && playerTransform != null)
         {
