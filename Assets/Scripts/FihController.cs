@@ -2,7 +2,17 @@ using UnityEngine;
 
 public class Fih : MonoBehaviour
 {
-    public int TypeOfFih = 1; // 1 = normal, 2 = big, 3 = dart
+// This defines what the options ARE
+    public enum FihType 
+    { 
+        NormalFih, 
+        BigFih, 
+        DartFih
+    }
+
+    // This creates the actual dropdown variable in the Inspector
+    [Header("Fih Type")]
+    public FihType selectedFish;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
