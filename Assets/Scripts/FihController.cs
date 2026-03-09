@@ -12,7 +12,7 @@ public class FihController : MonoBehaviour
 
     // This creates the actual dropdown variable in the Inspector
     [Header("Fih Type")]
-    [SerializeField] private readonly FihType selectedFih;
+    [SerializeField] private FihType selectedFih;
     [Header("Fih Stats")]
 
     [SerializeField] private float speed = 2f;
