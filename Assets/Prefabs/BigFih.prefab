@@ -49,7 +49,7 @@ MonoBehaviour:
   selectedFih: 1
   speed: 1.75
   aggroSpeed: 2.5
-  collisionDamage: 2
+  collisionDamage: 1
   moveDistance: 3
 --- !u!212 &8766921554331794774
 SpriteRenderer:
